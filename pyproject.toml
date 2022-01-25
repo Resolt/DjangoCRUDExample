@@ -5,8 +5,9 @@ description = "CRUD Example API Written in Python Django-Ninja"
 authors = ["resolt <pdmmichaelsen@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = "^3.8"
 Django = "^4.0.1"
+ninja = "^1.10.2"
 
 [tool.poetry.dev-dependencies]
 
