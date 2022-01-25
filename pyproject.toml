@@ -8,6 +8,9 @@ authors = ["resolt <pdmmichaelsen@gmail.com>"]
 python = "^3.8"
 Django = "^4.0.1"
 django-ninja = "^0.16.2"
+uvicorn = "^0.17.0"
+uvloop = "^0.16.0"
+httptools = "^0.3.0"
 
 [tool.poetry.dev-dependencies]
 
