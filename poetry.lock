@@ -74,6 +74,14 @@ doc = ["mkdocs", "mkdocs-material", "markdown-include"]
 test = ["pytest", "pytest-cov", "pytest-django", "pytest-asyncio", "black", "isort", "flake8", "mypy (==0.930)", "django-stubs"]
 
 [[package]]
+name = "django-shell-plus"
+version = "1.1.7"
+description = "django-admin.py shell+  <- shell with models auto-imported"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "h11"
 version = "0.13.0"
 description = "A pure-Python, bring-your-own-I/O implementation of HTTP/1.1"
@@ -163,7 +171,7 @@ test = ["aiohttp", "flake8 (>=3.9.2,<3.10.0)", "psutil", "pycodestyle (>=2.7.0,<
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "ea73aba0a02a6ce9e65d93c3e66c7bbc82cdaa04fbc8ab21fb3191140431c41c"
+content-hash = "ec8b6419d2042535be3d6a023135d648afbd06930d8b5f9315c5ed13e3ada340"
 
 [metadata.files]
 asgiref = [
@@ -203,6 +211,9 @@ django = [
 django-ninja = [
     {file = "django-ninja-0.16.2.tar.gz", hash = "sha256:288f44d183df4543040a660e7bc236b5aed50c4f1fb332fcdd7f3c9fd59a7f86"},
     {file = "django_ninja-0.16.2-py3-none-any.whl", hash = "sha256:b0cacecad4b6295f1df77c402e60e6ac9caa75cd14bb465654e0219ccaec4018"},
+]
+django-shell-plus = [
+    {file = "django-shell-plus-1.1.7.tar.gz", hash = "sha256:fcad4b3b97ee66d3fb61dc020711d53acf71db637b3e40970e9c7b23949e2b50"},
 ]
 h11 = [
     {file = "h11-0.13.0-py3-none-any.whl", hash = "sha256:8ddd78563b633ca55346c8cd41ec0af27d3c79931828beffb46ce70a379e7442"},
