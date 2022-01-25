@@ -7,7 +7,7 @@ authors = ["resolt <pdmmichaelsen@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 Django = "^4.0.1"
-ninja = "^1.10.2"
+django-ninja = "^0.16.2"
 
 [tool.poetry.dev-dependencies]
 
