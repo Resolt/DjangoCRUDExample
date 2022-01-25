@@ -1,6 +1,6 @@
 #!/bin/sh
 
-: ${PORT=8000}
+: ${PORT=8080}
 : ${WORKERS=2}
 : ${HOST=0.0.0.0}
 
